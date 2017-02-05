@@ -1,0 +1,213 @@
+.header
+  nav.navbar.navbar-default.navbar-custom
+    .container-fluid
+      /! Brand and toggle get grouped for better mobile display
+      .navbar-header.navbar-left
+        button.navbar-toggle.collapsed aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Menu
+      .navbar-border
+      /! Collect the nav links, forms, and other content for toggling
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-center
+          li.logo-company
+
+          li.dropdown
+            a.dropdown-toggle.dropdown-toggle-custom aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button"
+              | Products
+              span.caret
+            ul.dropdown-menu
+              li
+                a href="#"  Action
+              li
+                a href="#"  Another action
+              li
+                a href="#"  Something else here
+              li.divider role="separator"
+              li
+                a href="#"  Separated link
+              li.divider role="separator"
+              li
+                a href="#"  One more separated link
+          li.link-navbar
+            a href="#"  Solutions
+          li.link-navbar
+            a href="#"  Pricing
+          li.link-navbar
+            a href="#"  Software
+          li.dropdown
+            a.dropdown-toggle.dropdown-toggle-custom aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button"
+              | More
+              span.caret
+            ul.dropdown-menu
+              li
+                a href="#"  Action
+              li
+                a href="#"  Another action
+              li
+                a href="#"  Something else here
+              li.divider role="separator"
+              li
+                a href="#"  Separated link
+              li.divider role="separator"
+              li
+                a href="#"  One more separated link
+        ul.nav.navbar-nav.navbar-right
+          li.dropdown.english-nav
+            a.dropdown-toggle.dropdown-toggle-custom aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button"
+              | English
+              span.caret
+            ul.dropdown-menu
+              li
+                a href="#"  Action
+              li
+                a href="#"  Another action
+              li
+                a href="#"  Something else here
+              li.divider role="separator"
+              li
+                a href="#"  Separated link
+              li.divider role="separator"
+              li
+                a href="#"  One more separated link
+          li.dropdown.my-account-nav
+            a.dropdown-toggle.dropdown-toggle-custom aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button"
+              | My Account
+              span.caret
+            ul.dropdown-menu
+              li
+                a href="#"  Action
+              li
+                a href="#"  Another action
+              li
+                a href="#"  Something else here
+              li.divider role="separator"
+              li
+                a href="#"  Separated link
+              li.divider role="separator"
+              li
+                a href="#"  One more separated link
+          li
+            a href="#" class="btn btn-info btn-create-account" role="button" Create an AWS Account
+.content
+  .row
+    .col-sm-3.content-navleft
+        p.product-service PRODUCTS & SERVICES
+        .group-aws
+          p.aws-console AWS Console
+          p AWS Console Mobile App
+          p FAQs
+        .group-related-link
+          h6 class="related-link" RELATED LINKS
+          p Documentation
+          p Articles & Tutorials
+          p Developer Tools
+          p Public Data Sets
+          p Amazon Machine Images (AMIs)
+          p Videos & Webinars
+          p What's New
+    .col-sm-9.content-navright
+      h1.management-console AWS Management Console
+      p.description Access and manage Amazon Web Services through a simple and intuitive web-based user interface. You can also use the AWS Console mobile app to quickly view resources on the go.
+      h2.features.style-common Features
+      h3.style-common Administer your AWS account
+      p The Console facilitates cloud management for all aspects of your AWS account, including monitoring your monthly spending by service, managing security credentials, or even setting up new IAM Users.
+      h3.style-common Finding Services in the AWS Console
+      p There are several ways for you to locate and navigate to the services you need. On Console Home, you can utilize the search functionality, select services from the Recently visited services section, or expand the All services  section to browse through the list of all the services offered by AWS.
+
+      p At any time, you can also select the Services menu in the top level navigation bar, which includes the search functionality and the list of all services, either grouped, or arranged alphabetically.
+      h3.style-common Learn More About AWS
+      p The AWS Console Home page features various types of resources to help you learn about the services and features AWS has to offer, and get started with building your solutions faster.
+      p The "Build a solution" section features various simple automated wizards and workflows that enable you to create the resources you need for the solution you are seeking.
+      p The "Learn to build" section will direct you to various aggregated learning and training resources organized by solution type and use case. These resources include tutorials, videos, self-paced labs, and project guides, and documentation.
+      h3.style-common Pin Service Shortcuts
+      p Personalize your AWS Console experience by creating shortcuts to the services you visit most often. Clicking the pin icon in the global navigation bar (top level toolbar) will allow you to drag and drop service links onto the toolbar to create your shortcuts.
+      h3.style-common Resource Groups
+      p With Resource Groups, you can view collections of resources that share common tags. Streamline your use of the console by creating a resource group for each application, service, or collection of related resources that you work with regularly.
+
+      p Quickly navigate to each saved resource group using the “AWS” menu. Resource Groups are specific to each identity, so each user in an account can create unique Resource Groups for frequently accessed resources and common tasks. Users can also use a URL to share Resource Group definitions with others in the same account.
+      h3.style-common Tag Editor
+      p Use the Tag Editor to easily manage tags for all resource types that support tags in any region. Apply tag keys and values to multiple resources at once. The Tag Editor supports global tag search and bulk editing, so it is easy to find all resources with a particular tag or make tag changes across multiple resources with just a few clicks.
+      h3.style-common Manage AWS Resources from your Mobile Device
+      p With the AWS Console mobile app, you can quickly and easily view your existing resources, including CloudWatch alarms, and perform operational tasks from your mobile device. Download our mobile app from Amazon Appstore, Google Play, or iTunes.
+      hr
+      h3.style-common Requirements
+      ul
+        li
+          p Requires an existing AWS account.
+        li
+          p If you sign-in with an AWS Identity and Access Management (IAM) user account, you need to use the account alias that was included in the email address from your administrator.
+        li
+          p See our FAQs for a complete list of supported browsers and platforms.
+
+      h3.style-common Feedback
+      p We are eager to hear about your user experience with the AWS Management Console. Tell us about your experience by clicking the Feedback button at the bottom of the console after logging in.
+.footer.container
+  .row
+    .col-sm-2.footer-content
+      p AWS & Cloud Computing
+      ul
+        li
+          a href="#"  What is Cloud Computing?
+        li
+          a href="#"  Products & Services
+        li
+          a href="#"  Customer Success
+        li
+          a href="#"  Economics Center
+        li
+          a href="#"  Architecture Center
+        li
+          a href="#"  Security Center
+    .col-sm-2.footer-content
+      p Solutions
+      ul
+        li
+          a href="#"  What is Cloud Computing?
+        li
+          a href="#"  Products & Services
+        li
+          a href="#"  Customer Success
+        li
+          a href="#"  Economics Center
+        li
+          a href="#"  Architecture Center
+        li
+          a href="#"  Security Center
+    .col-sm-2.footer-content
+      p Resources & Training
+      ul
+        li
+          a href="#"  What is Cloud Computing?
+        li
+          a href="#"  Products & Services
+        li
+          a href="#"  Customer Success
+        li
+          a href="#"  Economics Center
+        li
+          a href="#"  Architecture Center
+        li
+          a href="#"  Security Center
+    .col-sm-2.footer-content
+      p Manage Your Account
+      ul
+        li
+          a href="#"  What is Cloud Computing?
+        li
+          a href="#"  Products & Services
+        li
+          a href="#"  Customer Success
+        li
+          a href="#"  Economics Center
+        li
+          a href="#"  Architecture Center
+        li
+          a href="#"  Security Center
+    .col-sm-4.footer-content
+      p Amazon Web Services is Hiring.
+      h6 Amazon Web Services (AWS) is a dynamic, growing business unit within Amazon.com. We are currently hiring Software Development Engineers, Product Managers, Account Managers, Solutions Architects, Support Engineers, System Engineers, Designers and more. Visit our Careers page or our Developer-specific Careers page to learn more.
+      h6 Amazon Web Services is an Equal Opportunity Employer.
